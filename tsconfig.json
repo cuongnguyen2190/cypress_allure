@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",                          
+    "module": "commonjs",           
+    "lib": ["es2015", "dom"],
+    "sourceMap": false,                     
+    "inlineSourceMap": true,              
+    "skipLibCheck": true, 
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "types": ["cypress", "node", "mocha"],
+    "experimentalDecorators": true
+  },
+  "include": [
+    "cypress/**/*.ts"
+  ]
+}
